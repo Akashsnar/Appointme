@@ -69,7 +69,7 @@ console.log("fm");
       }
 
       await toast.promise(
-        axios.post(`/register`, {
+        axios.post(`/user/register`, {
           firstname,
           lastname,
           email,
