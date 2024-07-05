@@ -79,7 +79,7 @@ console.log("fm");
         {
           pending: "Registering user...",
           success: "User registered successfully",
-          error: "Unable to register user",
+          error: "Unable to register user as email already",
           loading: "Registering user...",
         }
       );
